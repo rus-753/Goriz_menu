@@ -89,13 +89,32 @@ h6 {
 }
 
 /*--------------------*/
-body {}
+body {
+	background: tomato;
+	height: 300px;
+	margin-top: 20px;
+}
 
-.header {}
+.header {
+	background: yellow;
+	margin-top: 20px;
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+
+}
 
 .nav {}
 
-.list {}
+.box {
+	width: 100px;
+	height: 30px;
+	background: #fff;
+	margin: 10px;
+	text-align: center;
+	line-height: ;
+	float: left;
+}
 
 
 
