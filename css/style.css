@@ -89,19 +89,38 @@ h6 {
 }
 
 /*--------------------*/
-body {}
-
-.block {
-	background: #aaa;
-	height: 300px;
+body {
+	padding: 60px;
 
 }
 
-.title {
-	height: 50px;
-	font-size: 30px;
-	text-align: center;
-	background: #ccc;
-	margin-top: 50px;
+a.button {
+	border: 1px solid #000;
+	background-color: #aaa;
+	color: blueviolet;
+	padding: 4px;
+
+}
+
+a.button:hover {
+	border: 1px solid #000;
+	background-color: yellow;
+	color: forestgreen;
+	padding: 4px;
+	text-decoration: underline;
+
+}
+
+
+.nav {
+	margin: 20px 0 0 0;
+}
+
+ul.nav a {
+	display: block;
+	width: 100px;
+	background: yellow;
+	text-decoration: underline;
+	line-height: 1.3em;
 
 }
