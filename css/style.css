@@ -89,30 +89,17 @@ h6 {
 }
 
 /*--------------------*/
-body {
-	background: tomato;
-	height: 300px;
-	margin-top: 20px;
-}
-
-.header {
-	background: yellow;
-	margin-top: 20px;
-	width: 960px;
-	height: 300px;
-	margin: 0 auto;
-
-}
-
-.nav {}
+body {}
 
 .box {
-	width: 100px;
-	height: 30px;
-	background: #fff;
-	margin: 10px;
+	width: 200px;
+	height: 100px;
+	border: 2px solid #000;
+	background: #abaa;
+	margin: 10px 60px;
 	text-align: center;
-	line-height: ;
+	font-size: 30px;
+	line-height: 100px;
 	float: left;
 }
 
