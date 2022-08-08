@@ -130,8 +130,45 @@ ul.nav a {
 
 ul.nav a:hover {
 	border: 1px solid #000;
-	background-color: rgb(0 191 255);
+	background-color: rgba(0, 191, 255, 0. 5);
 	color: red;
 	padding: 4px;
 	text-decoration: underline;
+}
+
+
+.list {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	/* border: 1px solid #000; */
+
+
+}
+
+.list li {
+	display: inline;
+}
+
+.list a {
+	display: inline-block;
+	border: 1px dashed #000;
+	border-radius: 5px;
+	padding: 5px 10px;
+	background: #00FFFF;
+	width: 100px;
+	text-align: center;
+}
+
+.list a:hover {
+	background: #ADFF2F;
+	text-decoration: underline;
+	color: crimson;
+}
+
+
+
+.list a:active {
+	background: #FF00FF;
+	color: #fff;
 }
